@@ -1,5 +1,10 @@
 # !/usr/local/bin/python
 
+"""
+$ python make_timeline.py example/timeline.json
+$ inkscape out.svg -o out.pdf
+"""
+
 import parsedatetime
 import svgwrite
 
@@ -83,9 +88,9 @@ class Timeline:
         dt, flag = self.cal.parse(s)
         parts = s.split(".")
         if flag in (1, 2):
-            dt = datetime.datetime(*dt[:6], microsecond=int(parts[1]))
+            dt = datetime.datetime(*dt[:6])
         else:
-            dt = datetime.datetime(*dt[:6], microsecond=int(parts[1]))
+            dt = datetime.datetime(*dt[:6])
         return dt, flag
 
     def create_eras(self, y_era, y_axis, height):
