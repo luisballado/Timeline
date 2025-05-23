@@ -1,9 +1,8 @@
 # !/usr/local/bin/python
 
 """
-Ejecutarlo 
 $ python make_timeline.py example/timeline.json > figura.svg
-$ inkscape figura.svg -o figura.pdf
+$ inkscape out.svg -o out.pdf
 """
 
 import parsedatetime
