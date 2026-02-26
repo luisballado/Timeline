@@ -3,6 +3,7 @@ A tool for creating SVG timelines from JSON.
 
 ### Steps to make it work
 ```$ python3 make_timeline.py examples/timeline.json > figure.svg```
+
 ```$ inkscape figure.svg -o figure.pdf```
 
 ### Example
