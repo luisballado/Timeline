@@ -80,7 +80,7 @@ or, with a custom era color:
 ```
 
 ### Prerequisites
-You must have a python 2.7 installation and install the Python packages `parsedatetime` and `svgwrite`.
+You must have a python 3+ installation and install the Python packages `parsedatetime` and `svgwrite`.
 
 ### Usage
 ```./make_timeline.py in.json > out.svg```
