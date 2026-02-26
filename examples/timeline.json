@@ -1,32 +1,31 @@
 {
     "width": 750,
-    "start": "Jan 1 1850",
+    "start": "Jan 1 1920",
     "end": "Jan 1 2030",
     "num_ticks": 10,
     "tick_format": "%Y",
     "callouts": [
-	["Gobernador centrífugo", "Jan 1, 1880"],
-	["RC Boat", "Jan 1, 1898"],
-	["Giroplano", "Jan 1, 1907"],
-	["Telar", "Jan 1, 1860"],
-	["Concepto de motor", "Jan 1, 1870"],
-	["Ingeniería de control", "Jan 1, 1916"],
-	["Turing", "Jan 1, 1936","#DD0000"],
-	["Cibernética", "Jan 1, 1948"],
+	["R.U.R.", "Jan 1, 1920","#DD0000"],
+	["Máquina de Turing", "Jan 1, 1936"],
+	["Cibernética", "Jan 1, 1943"],
+	["Tortugas de Grey Walter", "Jan 1, 1948"],
+	["AI", "Aug 1, 1955","#DD0000"],
 	["Shakey", "Jan 1, 1966"],
-	["Tortoises", "Jan 1, 1950"],
-	["Stanford Cart", "Jan 1, 1980"],
-	["Algoritmos SLAM", "Jan 1, 1995"],
-	["DARPA", "Aug 6, 2005"],
-	["ROS", "Aug 6, 2010","#DD0000"],
-	["Curiosity", "Aug 6, 2012"],
-	["AlphaGo", "Aug 6, 2016"],
+	["Stanford Cart", "Jan 1, 1978"],
+	["Robots Reactivos", "Jan 1, 1980"],
+	["Arquitectura de Subsunción", "Jan 1, 1986"],
+	["Rejillas de ocupación", "Jan 1, 1988"],
+	["Exploración", "Jan 1, 1997"],
+	["SLAM", "Jan 1, 2000"],
+	["OctoMap", "Aug 6, 2013"],
+	["VANT", "Aug 6, 2010","#DD0000"],
+	["SANT", "Aug 6, 2017"],
 	["Humanoides RL", "Jan 1, 2024"]
 	
     ],
     "eras": [
-	["Fundamentos", "Jan 1, 1850", "Jan 1, 1910", "#FFD580"],
-	["Control y Algoritmos", "Jan 1, 1910", "Jan 1, 1970", "#91D1C2"],
-	["Probabilístico y Aprendizaje", "Jan 1, 1970", "Jan 1, 2030", "#C0C0FF"]
+	["Fundamentos", "Jan 1, 1920", "Jan 1, 1960", "#FFD580"],
+	["Control y Algoritmos", "Jan 1, 1960", "Jan 1, 1990", "#91D1C2"],
+	["Probabilístico y Aprendizaje", "Jan 1, 1990", "Jan 1, 2030", "#C0C0FF"]
     ]
 }
